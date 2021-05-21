@@ -1,0 +1,63 @@
+Перейти на сайт https://qaschool.snoopgame.com/test_2
+В поле “Имя” ввести более 20 символов
+Заполнить поле “Телефон”
+Нажать “Отправить”
+Ожидаемый результат: Форма не отправлена, отображается
+сообщение об ошибке “Значение не должно превышать
+20 символов”
+
+BUG REPORT
+1. THE APPLICATION WAS ACCEPTED IF THE DATA WAS ENTERED INCORRECTLY
+2. CLICK ON THE LINK https://qaschool.snoopgame.com/test_2 , FILL OUT THE FORM AND ENTER MORE THAN 20 CHARACTERS IN THE "NAME" COLUMN AND CLICK "SUBMIT"
+3. THE APPLICATION IS ACCEPTED, EVEN IF THE INPUT IS INCORRECT
+4.
+5. P3 (THE ERROR IS NOT CRITICAL, BUT IT IS BETTER TO SOLVE IT)
+6. S3
+7. NEW
+8. THE ERROR IS REPRODUCED ON ALL PLATFORMS
+9. DZ 2
+10. AUTHOR: PAVEL
+PURPOSE: AT LEAST SOMEONE
+_______________________________________________________
+
+Перейти на сайт https://qaschool.snoopgame.com/test_2
+Оставить поле “Номер телефона” пустым
+Заполнить поле “Имя” валидными данными
+Нажать “Отправить”
+Ожидаемый результат: Форма не отправлена, отображается
+сообщение об ошибке “Обязательное поле”
+
+BUG REPORT
+1. ACCEPTING APPLICATIONS WITHOUT SPECIFYING A PHONE NUMBER
+2. CLICK ON THE LINK https://qaschool.snoopgame.com/test_2 , ENTER THE NAME AND DO NOT ENTER THE PHONE NUMBER, CLICK SEND
+3. THE APPLICATION IS ACCEPTED WITHOUT A PHONE NUMBER
+EXPECTED RESULT: ERROR ABOUT AN EMPTY REQUIRED FIELD
+4.
+5. P2
+6. S3
+7. NEW
+8. BUG ON ALL PLATFORMS
+9. DZ 2
+10. AUTHOR: PAVEL
+PURPOSE: AT LEAST SOMEONE
+_______________________________________________________
+
+Проверка дизайна формы регистрации
+
+Перейти на сайт https://qaschool.snoopgame.com/test_2
+Обратить внимание на дизайн формы регистрации
+Сравнить все элементы формы с макетом
+Ожидаемый результат: Форма на сайте совпадает с макетом.
+
+BUG REPORT
+1. THE FORM ON THE SITE DOES NOT MATCH THE LAYOUT
+2. GO TO THE SITE https://qaschool.snoopgame.com/test_2 , LOOK AT THE FORM AND LOOK AT THE LAYOUT
+3. DOES NOT MATCH THE LAYOUT (NO ELEMENTS IN THE LOWER LEFT AND UPPER RIGHT CORNER, THE FORM OF THE "SEND" BUTTON, NO EXAMPLE NUMBER AND SELECTION OF THE MILLS)
+4.
+5. P1
+6. S2
+7. NEW
+8. ON ALL PLATFORMS
+9. DZ 2
+10. AUTHOR: PAVEL
+PURPOSE: AT LEAST SOMEONE
