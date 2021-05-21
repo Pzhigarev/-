@@ -1,0 +1,24 @@
+Log In
+* Checking whether the authorization form fields must be filled in
+* Successful authorization in the system
+* Successful authorization in the system after changing the password
+* Use of internal single quotes in the login field
+* Authorization using an invalid password
+* Authorization with an empty username
+* Authorization with a blank password
+* Entering an incorrect username and password
+* Entering an incorrect username and password
+
+Sign Up
+* Successful registration of a new user
+* User registration using spaces in the login
+* Registration a user with a password of spaces
+* Registration of a user with an existing username
+* Register a user with an existing password
+
+Forgot Password
+* "Forgot your password?" button" active
+* Requests a phone number
+* Error when entering letters
+* Error in the absence of a number
+* Incorrect input error indicates incorrect input
